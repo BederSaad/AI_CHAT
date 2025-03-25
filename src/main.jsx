@@ -8,6 +8,11 @@ import DashboardPage from './routes/dashboardpage/DashboardPage.jsx'
 import ChatPage from './routes/chatPage/ChatPage.jsx'
 import RootLayout from './layouts/rootLayout/RootLayout.jsx'
 import DashboardLayout from './layouts/dashboardLayout/DashboardLayout.jsx'
+import { SignIn, SignUp } from '@clerk/clerk-react'
+import SignInPage from './routes/signInPage/signInPage.jsx'
+import SignUpPage from './routes/signUpPage/signUpPage.jsx'
+
+
 
 const router = createBrowserRouter([
   {
@@ -16,6 +21,14 @@ const router = createBrowserRouter([
     {
       path:"/", 
       element: <Homepage />,
+    },
+    {
+      path:"/sign-in/*", 
+      element: <SignInPage />,
+    },
+    {
+      path:"/sign-up/*", 
+      element: <SignUpPage />,
     },
     {
       element: <DashboardLayout />,
