@@ -83,27 +83,27 @@ The app should now be running at http://localhost:3000.
 
 ### Usage
 
-Sign Up / Log In: Use the Clerk authentication system to create an account or log in.
+**Sign Up / Log In**: Use the Clerk authentication system to create an account or log in.
 
-Chat with AI: Once logged in, start interacting with the AI chatbot.
+**Chat with AI**: Once logged in, start interacting with the AI chatbot.
 
-Manage Profile: Navigate to the profile section to update your details or change your theme preferences.
+**Manage Profile**: Navigate to the profile section to update your details or change your theme preferences.
 
-Logout: Use the logout button to securely end your session.
+**Logout**: Use the logout button to securely end your session.
 
-Authentication Setup
+### Authentication Setup
 
 This project uses Clerk for authentication. To integrate Clerk:
 
-Sign up for a free account at Clerk.dev.
+**Sign up for a free account at Clerk.dev.**
 
-Create a new application in the Clerk dashboard.
+**Create a new application in the Clerk dashboard.**
 
-Copy the Publishable Key from the Clerk dashboard.
+**Copy the Publishable Key from the Clerk dashboard.**
 
-Add the key to your .env file in the client folder as shown above.
+**Add the key to your .env file in the client folder as shown above.**
 
-Follow Clerk's documentation to customize authentication flows if needed.
+**Follow Clerk's documentation to customize authentication flows if needed.**
 
 
 
