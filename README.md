@@ -50,34 +50,34 @@ Fast and seamless communication with the AI
 ### Steps  
 
 1. Clone the repository:
-```bash  
-git clone https://github.com/your-username/ai-chat-website.git
+    ```bash  
+    git clone https://github.com/your-username/ai-chat-website.git
 
 2. Navigate to the client folder:
 
-```bash
-cd ai-chat-website/client
+    ```bash
+    cd ai-chat-website/client
 
 3. Install dependencies:
 
-```bash
-npm install
-# or
-yarn install
+    ```bash
+    npm install
+    # or
+    yarn install
 
 4. Create a .env file in the client folder and add the following:
 
-```bash
-VITE_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+    ```bash
+    VITE_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
 
 🔐 Note: Replace your-clerk-publishable-key with your actual Clerk publishable key.
 
 5. Start the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+      ```bash
+      npm run dev
+      # or
+      yarn dev
 
 The app should now be running at http://localhost:3000.
 
